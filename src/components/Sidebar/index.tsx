@@ -36,7 +36,7 @@ export function Sidebar() {
 
           <div className="mt-auto flex flex-col gap-6">
             <nav className="flex flex-col gap-1">
-              <NavItem icon={Cog} title="Configurações" />
+              <NavItem icon={Cog} title="Configurações" link="/settings" />
             </nav>
 
             <Separator />
